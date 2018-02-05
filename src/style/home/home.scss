@@ -1,0 +1,31 @@
+.home{
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        .content{
+            position: absolute;
+            left: 17%;
+            top:90px;
+            right: 1.2%;
+            bottom: 0;
+            overflow-y:auto;
+            overflow-x: hidden;
+        }
+        .el-alert{
+          position: absolute;
+          width: auto;
+          font-size: 16px;
+          border-radius: 5px;
+          left: 50%;
+          top: 50%;
+          transform:translate(-50%,-50%);
+          -webkit-transform:translate(-50%,-50%);
+          -moz-transform:translate(-50%,-50%);
+          -o-transform:translate(-50%,-50%);
+        }
+    }

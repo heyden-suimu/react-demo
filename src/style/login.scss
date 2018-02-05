@@ -1,0 +1,86 @@
+.Container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        background: #282b30;
+        .login{
+            width: 5.8rem;
+            height: 350px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform:translate(-50%,-50%);
+            -moz-transform:translate(-50%,-50%);
+            -ms-transform:translate(-50%,-50%);
+            -o-transform:translate(-50%,-50%);
+            // border:1px solid white;
+            // border-radius: 5px;
+            // background: white;
+            .sitename{
+                font-size: 28px;
+                text-align: center;
+                padding-top: 50px;
+                color:white;
+            }
+            .loginForm{
+                width: 60%;       
+                margin: 0 auto;
+                text-align: left;
+                padding-top: 10px;
+                .item{
+                    width: 100%;
+                    overflow: hidden;
+                    padding-bottom: 2px;
+                    height: 70px;
+                    border-bottom: solid 2px #e8ecf1; 
+                    position: relative; 
+                    span{
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 28px;
+                        height: 30px;
+                        background: url("../asset/images/user.png") no-repeat center center white;
+                    }
+                    input{
+                        height: 30px;
+                        padding-left: .1rem;
+                        position: absolute;
+                        width: 100%;
+                        bottom: 0;
+                        left: 27px;
+                    }
+                    input:-webkit-autofill {
+                        background-color: none!important;
+                        background-image: none;
+                        color: #000;
+                    }
+                    span.pwd{
+                        background: url("../asset/images/password.png") no-repeat center center white;
+                    }
+                }
+                .login_container{
+                    width: 1.2rem;
+                    display: block;
+                    margin: 0 auto;
+                    font-size: 16px;
+                    background-color: #3c8dbc;
+                    color: white;
+                    // border: solid 1px #f76e42;
+                    border-radius: 5px;
+                    text-align: center;
+                    color: white;
+                    padding:10px 0;
+                    margin-top: 34px;
+                }              
+            }
+        }
+    }
+
+    .login{
+         overflow: hidden;
+    }
